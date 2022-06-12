@@ -1,0 +1,186 @@
+@media screen and (max-width: 991px) {
+     /* Untuk mengatur kemunculan */
+    .nav-mobile {
+        display: block;
+    }
+
+    /* Mengatur papan berita */
+    .row.justify-content-center.margin-up{
+    margin-top: -0.2em;
+    margin-left: -5em;
+    }
+
+    .navbar-for-pc {
+        display: none;
+    }
+    
+    /*  */
+    .footer-main-flex {
+        flex-direction: column;
+    }
+
+    .span-for-mobile{
+        display: none;
+    }
+
+    .span-for-mobile-on{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .span-for-mobile-on{
+    display: none;
+}
+    .nav-mobile {
+        display: none;
+    }
+}
+
+/* untuk mengatur navbar paling atas*/
+nav .container-fluid{
+    display: block;
+    background-color: #f4f3ef;
+    height: auto;
+} 
+
+/* Display pop up dropdown */
+.display-pop-up-01 {
+    display: none;
+}
+
+.display-pop-up-02 {
+    display: none;
+}
+
+.display-pop-up-03 {
+    display: none;
+}
+
+.display-pop-up-04 {
+    display: none;
+}
+
+.drop-menu-01 span{
+    float: left;
+    color: red;
+}
+
+/* Mengatur card "berita teratas" */
+
+.container .card {
+    margin-bottom: 0px;
+}
+
+.container .card h4 {
+    margin-top: 0px
+}
+
+.text-muted.text-capitalize.margin-up {
+    margin-top: 3em;
+}
+
+
+/* Memberikan jarak antar car */
+.space-between .card {
+    margin: 2em;
+}
+
+/* Untuk ketingian aplikasi */
+.application-dev .d-flex{
+    display: inline-block;
+    width: 0em;
+    max-height: 5em;
+}
+
+/* Mengatur footer */
+.foter-set {
+    padding: 2em;
+    color: #faf8fa;
+    height: auto;
+    width: 100%;
+    background-color: #66615b;
+}
+
+.foter-set a {
+    color: #faf8fa !important;
+}
+
+.foter-set {
+    font-family: 'Montserrat', sans-serif;
+}
+/* foter degnan flex */
+.footer-main-flex {
+    display: flex;
+}
+
+.footer-main-flex > div {
+    width: 50em;
+    margin: 10px;
+}
+
+.footer-main-flex .logo-responsive {
+    height: auto;
+    width: 10em;
+}
+
+/* Mengaturt ukuran title */
+.footer-title {
+    font-size: 2em;
+}
+
+/* News overflowmodifiy */
+.all_news span {
+    border-radius: 0px;
+    /* -webkit-linear-gradient(top, rgba(0, 75, 103, 1) 0%, rgba(0, 53, 72, 1) 100%) */
+    padding: 10px;
+}
+
+#all_news {
+    /* -webkit-box-shadow: none; */
+    box-shadow: none;
+    height: 34px;
+}
+
+.top_news span {
+    border-radius: 0px;
+    /* -webkit-linear-gradient(top, rgba(0, 75, 103, 1) 0%, rgba(0, 53, 72, 1) 100%) */
+    background: -webkit-linear-gradient(top, rgb(255 0 0) 0%, rgb(255 0 0) 100%);
+    padding: 10px;
+}
+
+#top_news {
+     /* -webkit-box-shadow: none; */
+    box-shadow: none;
+    height: 34px;
+}
+
+/* Mengatur title */
+.title-font-size {
+    font-size: 1.5em;
+}
+
+/* Mengatur Navbar dropdown */
+.collapsible-pc {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible-pc:hover {
+  background-color: #555;
+}
+
+.content-pc {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
